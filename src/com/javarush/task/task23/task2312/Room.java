@@ -112,7 +112,7 @@ public class Room {
         matrix[mouse.getY()][mouse.getX()] = 3;
 
         //Выводим все это на экран
-        String[] symbols = {" . ", " \uD83D\uDD38 ", " \uD83D\uDC32 ", "\uD83D\uDC01", "\uD83D\uDC80"};
+        String[] symbols = {" . ", " x ", " X ", "^_^", "RIP"};
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 System.out.print(symbols[matrix[y][x]]);
